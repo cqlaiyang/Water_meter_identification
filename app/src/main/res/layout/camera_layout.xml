@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.example.laiyang.tab.camera_utils.MyCvCameraView
+        android:id="@+id/cv_camera_id"
+        android:visibility="gone"
+        android:layout_width="500dp"
+        android:layout_height="match_parent" />
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <ImageView
+          android:id="@+id/start"
+          android:layout_marginEnd="12dp"
+          android:layout_marginTop="12dp"
+          android:layout_marginBottom="12dp"
+          android:src="@drawable/start"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent" />
+        <EditText
+            android:hint="请在这里输入起始值"
+            android:id="@+id/input1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/startCount"
+            android:src="@drawable/task"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/end"
+            android:src="@drawable/end"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+  <!--  <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />-->
+    <!--   <org.opencv.android.JavaCameraView
+           android:id="@+id/cv_camera_id2"
+           android:visibility="gone"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />-->
+</LinearLayout>
